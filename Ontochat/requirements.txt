@@ -1,0 +1,6 @@
+openai
+gradio
+scikit-learn
+sentence-transformers
+rdflib
+os
