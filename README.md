@@ -24,3 +24,36 @@ Follow these steps to set up and run the project:
    ```bash
    conda create --name ontochat-env python=3.9
    conda activate ontochat-env
+
+markdown
+Copia codice
+## Install Dependencies
+
+Once the environment is activated, install `pip`:
+
+```bash
+conda install pip
+Use pip to install the required packages from requirements.txt:
+
+bash
+Copia codice
+pip install -r requirements.txt
+Run the Application
+Ensure that the newly created environment is active. Run the application using Python by providing the absolute path to the app.py file:
+
+bash
+Copia codice
+python /absolute/path/to/app.py
+Access the Application
+After running the application, you should see a link displayed in the terminal. Copy and paste the link into any web browser.
+
+Running OntoChat
+Now you are able to use the OntoChat tool with the new ontology draft creation feature.
+
+Requirements
+To run the code, you will need an OpenAI API key, as the tool is based on Large Language Models (LLMs).
+
+css
+Copia codice
+
+This version is formatted correctly for a markdown file with proper code blocks and sectio
