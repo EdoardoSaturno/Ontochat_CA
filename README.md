@@ -31,15 +31,9 @@ Follow these steps to set up and run the project:
    
    ```bash
    conda install p
-   exit
-   
-   Use pip to install the required packages from requirements.txt:
-
-   ```bash
    pip install -r requirements.txt
-   Run the Application
 
-5. **Run Application"
+4. **Run Application"
    Ensure that the newly created environment is active. Run the application using Python by providing the absolute path to the app.py file:
 
    ```bash
