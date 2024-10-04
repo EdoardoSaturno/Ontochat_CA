@@ -1,6 +1,6 @@
 # OntoChat Extension
 
-This project is an extension of [OntoChat](https://github.com/OntoChat). For more information about OntoChat, please refer to the [main site](https://github.com/OntoChat).
+This project is an extension of [OntoChat](https://github.com/King-s-Knowledge-Graph-Lab/OntoChat). For more information about OntoChat, please refer to the official GitHub repository.
 
 ## About this Extension
 
