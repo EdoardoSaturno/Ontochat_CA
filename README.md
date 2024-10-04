@@ -45,6 +45,7 @@ Follow these steps to set up and run the project:
    Running on local URL:  http://127.0.0.1:7860
 
 ## Running OntoChat
+Remember to substitute your OpenAI API key and the absolute path of the directory of ontochat on your local machine in the *drafting.py* file.
 Now you are able to use the OntoChat tool with the new ontology draft creation feature. For any question feel free to contact me on edoardo.saturno@studio.unibo.it
 
 
