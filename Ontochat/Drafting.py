@@ -2,27 +2,36 @@ import json
 from ontochat.chatbot import chat_completion
 from io import StringIO
 import os
+import sys
 
-key = "" #put your openAI key here
+key = "s" #put your openAI key here !!!!!
 key = str(key)
 
 def rdf_explanations(message):
 
+    print("Current Directory:", current_dir)  #Please ensure this path is connected to your onrochat folder
+    sys.path.append(current_dir)
+
     # Get the current working directory
-    current_dir = os.getcwd()
-    print("Current Directory:", current_dir)  
+    current_dir = r"S" #please provide tha path to the directory of ontochat !!!!!
+
+    t1_dir = r"\Tests\Test1.txt"
+    t2_dir = r"\Tests\Test2.txt"
+    t3_dir = r"\Tests\Test3.txt"
+
+
 
     # Obtain the message that describe the ontology, either "t" for test or input your own description
     if message=="Test1":
-        with open(r"Tests\Test1.txt", 'r') as file:
+        with open(current_dir + t1_dir, 'r') as file:
             message = file.read()
     
     if message=="Test2":
-        with open(r"Tests\Test2.txt", 'r') as file:
+        with open(current_dir + t2_dir, 'r') as file:
             message = file.read()
 
     if message=="Test3":
-        with open(r"Tests\Test3.txt", 'r') as file:
+        with open(current_dir + t2_dir, 'r') as file:
             message = file.read()
 
 
