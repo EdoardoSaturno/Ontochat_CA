@@ -31,10 +31,10 @@ Follow these steps to set up and run the project:
    
    ```bash
    conda install p
-   pip install -r requirements.txt
+   pip install -r absolute_path_to\requirements.txt
 
 4. **Run Application**
-   Open anaconda command prompt, ensure that the newly create conda env is active. You have to put teh absolute path to the python interpreter in your conda env AND the absolute path of the app.py path:
+   Open anaconda command prompt, ensure that the newly create conda env is active. You have to put teh absolute path to the python interpreter in your conda env AND the absolute path of app.py:
    
    ```bash
    (ontochat-env) C:\Users\edoar\anaconda\envs\ontochat-env\python "C:\Users\edoar\OneDrive\Desktop\Ontochat\app.py"
