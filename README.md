@@ -27,9 +27,11 @@ Follow these steps to set up and run the project:
    conda activate ontochat-env
 
 3. **Install Dependencies**  
-   Once the environment is activated, install `pip`:  
+   Once the environment is activated, install `pip`:
+   
    ```bash
-   conda install pip
+   conda install p
+   exit
    
    Use pip to install the required packages from requirements.txt:
 
@@ -37,7 +39,7 @@ Follow these steps to set up and run the project:
    pip install -r requirements.txt
    Run the Application
 
-4. **Run Application"
+5. **Run Application"
    Ensure that the newly created environment is active. Run the application using Python by providing the absolute path to the app.py file:
 
    ```bash
