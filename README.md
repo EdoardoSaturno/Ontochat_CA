@@ -21,7 +21,7 @@ Follow these steps to set up and run the project:
    Download Anaconda from [here](https://www.anaconda.com/products/distribution) and follow the installation instructions for your operating system.
 
 2. **Create and Activate a Conda Environment**  
-   Open a terminal or command prompt and run the following commands:
+   Open anaconda command prompt and run the following commands:
    ```bash
    conda create --name ontochat-env python=3.9
    conda activate ontochat-env
@@ -33,13 +33,16 @@ Follow these steps to set up and run the project:
    conda install p
    pip install -r requirements.txt
 
-4. **Run Application"
-   Ensure that the newly created environment is active. Run the application using Python by providing the absolute path to the app.py file:
-
+4. **Run Application**
+   Open anaconda command prompt, ensure that the newly create conda env is active. You have to put teh absolute path to the python interpreter in your conda env AND the absolute path of the app.py path:
+   
    ```bash
-   python /absolute/path/to/app.py
-   Access the Application
-   After running the application, you should see a link displayed in the terminal. Copy and paste the link into any web browser.
+   (KE_env) C:\Users\edoar\anaconda\envs\KE_env\python "C:\Users\edoar\OneDrive\Desktop\Ontochat\app.py"
+   
+5. **Web Activation**
+   After running the application, you should see a URL displayed in the terminal. Copy and paste the URL into any web browser.
+   ```bash
+   Running on local URL:  http://127.0.0.1:7860
 
 ## Running OntoChat
 Now you are able to use the OntoChat tool with the new ontology draft creation feature. For any question feel free to contact me on edoardo.saturno@studio.unibo.it
