@@ -37,7 +37,7 @@ Follow these steps to set up and run the project:
    Open anaconda command prompt, ensure that the newly create conda env is active. You have to put teh absolute path to the python interpreter in your conda env AND the absolute path of the app.py path:
    
    ```bash
-   (KE_env) C:\Users\edoar\anaconda\envs\KE_env\python "C:\Users\edoar\OneDrive\Desktop\Ontochat\app.py"
+   (ontochat-env) C:\Users\edoar\anaconda\envs\ontochat-env\python "C:\Users\edoar\OneDrive\Desktop\Ontochat\app.py"
    
 5. **Web Activation**
    After running the application, you should see a URL displayed in the terminal. Copy and paste the URL into any web browser.
