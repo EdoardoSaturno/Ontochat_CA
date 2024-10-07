@@ -11,7 +11,7 @@ This extension adds a new feature, enabling the creation of drafts of ontologies
 Before running this project, make sure you have the following tools installed/available:
 - [Anaconda](https://www.anaconda.com/products/distribution)
 - [Python](https://www.python.org/downloads/)
-- You will need an OpenAI API key, which you can obtain by signing up at the [OpenAI website](https://platform.openai.com/signup).
+- You will need an OpenAI API key, which you can obtain by signing up at the [OpenAI website](https://platform.openai.com/signup). You need to add it in the drafting.py file.
 
 ## Installation Instructions
 
